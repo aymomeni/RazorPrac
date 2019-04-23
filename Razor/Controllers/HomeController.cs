@@ -22,6 +22,8 @@ namespace Razor.Controllers
 
             };
 
+            ViewBag.StockLevel = 2;
+
             return View(myProduct);
         }
     }
